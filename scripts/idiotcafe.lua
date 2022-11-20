@@ -36,3 +36,4 @@ addscript("tp to manager office","game:GetService('Players').LocalPlayer.Charact
 addscript("tp to employee spawn","game:GetService('Players').LocalPlayer.Character:SetPrimaryPartCFrame(workspace.EmployeeSpawnLocation.CFrame)")
 addscript("tp to customer spawn","game:GetService('Players').LocalPlayer.Character:SetPrimaryPartCFrame(workspace.CustomerSpawnLocation.CFrame)")
 addtoggle("[NEW] (on) money-gen", "[NEW] (off) money-gen","game.StarterGui:SetCore('SendNotification',{Title='Money dupe warning',Text='You NEED to run this script for at least 85 seconds before you start making money $$$',Duration=5})_G.moneydupe=true","_G.moneydupe=false")
+addscript("drop all tools","for a,b in pairs(game:GetService('Players').LocalPlayer.Backpack:GetChildren())do b.Parent=game:GetService('Players').LocalPlayer.Character;b.Parent=workspace end")
