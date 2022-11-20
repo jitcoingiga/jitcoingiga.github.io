@@ -1,7 +1,7 @@
 --[[
 game: https://www.roblox.com/games/11217941123
 written by: hovac
-last updated: 2022/11/19
+last updated: 2022/11/20
 
 none of this code is skidded and i wrote 100% of it from scratch
 none of this code is obfuscated, just minified
@@ -37,3 +37,4 @@ addscript("tp to employee spawn","game:GetService('Players').LocalPlayer.Charact
 addscript("tp to customer spawn","game:GetService('Players').LocalPlayer.Character:SetPrimaryPartCFrame(workspace.CustomerSpawnLocation.CFrame)")
 addtoggle("[NEW] (on) money-gen", "[NEW] (off) money-gen","game.StarterGui:SetCore('SendNotification',{Title='Money dupe warning',Text='You NEED to run this script for at least 85 seconds before you start making money $$$',Duration=5})_G.moneydupe=true","_G.moneydupe=false")
 addscript("drop all tools","for a,b in pairs(game:GetService('Players').LocalPlayer.Backpack:GetChildren())do b.Parent=game:GetService('Players').LocalPlayer.Character;b.Parent=workspace end")
+addscript("NUKE (requires $$$)","for a=1,100,1 do game:GetService('Players').LocalPlayer.PlayerGui.buysomething:FireServer(3)game:GetService('Players').LocalPlayer.PlayerGui.buysomething:FireServer(3)end;wait(1)for a,b in pairs(game:GetService('Players').LocalPlayer.Backpack:GetChildren())do if b.Name=='Grenade'or b.Name=='Gas grenade'then b.Parent=game:GetService('Players').LocalPlayer.Character;b:Activate()b.Parent=workspace;end end")
